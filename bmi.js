@@ -5,5 +5,5 @@ let height = 1.7;
 // BMIを計算
 let bmi = weight / (height * height);
 
-// 結果を小数点2桁まで表示
+// 結果を小数点3桁まで表示
 console.log("BMIは " + bmi.toFixed(2) + "です。");
